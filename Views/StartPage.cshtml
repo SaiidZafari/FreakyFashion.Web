@@ -2,5 +2,6 @@
 @inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<ContentModels.StartPage>
 @using ContentModels = Umbraco.Cms.Web.Common.PublishedModels;
 @{
-	Layout = null;
+	Layout = "Master.cshtml";
 }
+@Model.Value("titlePage")
